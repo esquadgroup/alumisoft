@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #57607A;
+    text-decoration: none;
+}
+
+header{
+    padding: 20px 0;
+    border-bottom: solid 1px #DFE4EB;
+}
+
+.conteudo-cabecalho{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botao{
+    display: inline-block;
+    padding: 10px 15px;
+    background: rgb(4,169,180);
+    background: linear-gradient(0deg, rgba(4,169,180,1) 0%, rgba(62,185,193,1) 100%);
+    border-radius: 3px;
+    
+}
+
+.display-botao{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.display-botao img{
+    margin-left: 5px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;   
+}
+
+.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 100px;
+}
+.caixa-titulo{
+    max-width: 547px;
+    padding: 0 20px 0 0;
+}
+.img-topo img{
+    width: 100%;
+    max-width: 588px;
+}
+
+.linha{
+    width: 150px;
+    display: inline-block;
+    margin-right: 10px;
+    border-bottom: solid 1px #3EB9C1;
+}
+
+.verde{
+    color: #3EB9C1;
+}
+
+.txt-pequeno{
+    font-size: 14px;
+}
+h1{
+    margin: 15px 0;
+    line-height: 50px;
+    font-size: 41px;
+    font-weight: 400;
+}
+
+p{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.caixa-titulo p{
+    margin-bottom: 20px;
+}
+.sobre{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+.a-alumisoft{
+    max-width: 525px;
+}
+h2{
+    font-size: 31px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-right: 20px;
+}
+
+.o-cem{
+    max-width: 501px;
+}
+
+.caixas{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.caixa{
+    width: 350px;
+    background-color: #F7F7FA;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 28px;
+    font-size: 16px;
+}
+
+.icone{
+    border-radius: 3px;
+    background-color: #04A9B4;
+    padding: 10px 10px 6px 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+h4{
+    font-weight: 800;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.solucoes{
+    text-align: center;
+    padding-top: 90px;
+}
+
+.logos{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.logo-solucao{
+    padding: 30px;
+}
+
+h5{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.depoimentos{
+    text-align: center;
+    margin-top: 40px;
+}
+.caixas-depoimentos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+
+.caixa-depoimento{
+    background-color: #F7F7FA;
+    border-radius: 3px;
+    padding: 30px;
+    max-width: 547px;
+    text-align: left;
+    margin: 0 10px;
+}
+
+.perfil-cliente{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 40px;
+}
+
+.dados-cliente{
+    margin-left: 20px;
+    
+}
+
+.nome-cliente{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.pessoas{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 100px;
+}
+
+.img-pessoas{
+    max-width: 601px;
+}
+
+.texto-pessoas{
+    text-align: left;
+}
+
+.texto-pessoas h6{
+    font-size: 31px;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+
+.texto-pessoas p{
+    font-size: 16px;
+    line-height: 30px;
+    max-width: 501px;
+    margin-top: 16px;
+}
+
+.contato{
+    margin: 0 auto;
+    padding: 100px 0;
+    max-width: 700px;
+}
+
+footer{
+    background-color: #12ADB7;
+    padding: 60px 0;
+}
+
+.conteudo-footer{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright p{
+    color: #fff;
+    font-size: 14px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.menu-social{
+    display: flex;
+}
+
+.menu-social li{
+    margin-left: 15px;
+}
+
+
+@media only screen and (max-width: 1140px) {
+    
+    header, .container, footer{
+        padding: 20px;
+    }
+    .caixa-titulo{
+        width: 50%;
+    }
+    .logos{
+        display: grid;
+        grid-template-columns: auto auto;
+        max-width: 730px;
+        margin: 0 auto;
+    }
+    .caixas{
+        display: block;
+    }
+    .caixa{
+        padding: 20px;
+        width: 30%;
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .topo{
+        display: block;
+        text-align: center;
+    }
+    .caixa-titulo{
+        
+        width: 100%;
+        max-width: 1000px;
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+
+    .pessoas{
+        display: block;
+    }
+
+    .img-pessoas{
+        margin: 0 auto;
+    }
+
+    .texto-pessoas{
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .texto-pessoas p {
+        margin: 16px auto;
+    }
+
+    .conteudo-footer{
+        display: block;
+        text-align: center;
+    }
+    .redes-sociais{
+        max-width: 350px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .redes-sociais ul{
+       margin: 0 auto;
+    }
+    .menu-social{
+        align-items: center;
+        justify-content: space-around;
+    }
+    .copyright{
+        margin: 20px 0;
+    }
+    
+}
+
+@media only screen and (max-width: 825px) {
+    .sobre{
+        display: block;
+        text-align: center;
+    }
+    .a-alumisoft{
+        margin: 10px auto;
+    }
+    .o-cem{
+        margin: 10px auto;
+    }
+    .container{
+        text-align: center;
+    }
+    .img-pessoas img{
+        width: 100%;
+        max-width: 601px;
+    }
+    .caixas-depoimentos{
+        display: block;
+        text-align: center;
+    }
+
+    .caixa-depoimento{
+        margin: 20px auto;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .logos{
+
+        grid-template-columns: auto;
+
+    }
+}
+
